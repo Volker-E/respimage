@@ -34,8 +34,8 @@ The ``w`` descriptor is currently only supported in Chrome. All other browsers w
 ```html
 <img 
 	srcset="http://placehold.it/700x300 700w, 
-        http://placehold.it/1400x600 1400w,
-        http://placehold.it/2800x1200 2800w" 
+            http://placehold.it/1400x600 1400w,
+            http://placehold.it/2800x1200 2800w" 
      sizes="(max-width: 1400px) 100vw, 1400px" 
      src="http://placehold.it/1400x600"
      alt="flexible image" />
@@ -67,11 +67,11 @@ The art direction approach of the picture element and the descriptor approach ca
 	<!--[if IE 9]><video style="display: none;"><![endif]-->
     <source 
     	srcset="http://placehold.it/700x300 2x,
-        	http://placehold.it/350x150 1x" 
+                http://placehold.it/350x150 1x" 
         media="(max-width: 500px)" />
     <source 
     	srcset="http://placehold.it/1400x600/e8117f/fff 1.5x, 
-        	http://placehold.it/1024x439/e8117f/fff 1x"
+                http://placehold.it/1024x439/e8117f/fff 1x"
         media="(max-width: 1024px)" />
     <!--[if IE 9]></video><![endif]-->
     <img 
